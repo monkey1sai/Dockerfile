@@ -3,7 +3,9 @@
 #    -- automatically generated  --
 #+++++++++++++++++++++++++++++++++++++++
 
-FROM webdevops/base:ubuntu-18.04
+#FROM webdevops/base:ubuntu-18.04
+FROM ubuntu:20.04
+
 
 ENV APPLICATION_USER=application \
     APPLICATION_GROUP=application \
